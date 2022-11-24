@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+ul{
+    display: inline;
+    
+}
+#menu {
+    position: relative;
+    width: 10em;/*ou max-content*/
+    margin: auto;
+}
+#menu ul {
+    display: none;
+    position: absolute;
+    left: 100%;
+    top: 0px;
+}
+#menu li{
+    position: relative;
+}
+#menu li:hover > ul {
+    /* on ne montre que la liste enfant direct */
+    display: block;
+}
+#menu,#menu ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+}
+#menu li{
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+}
+#menu li li{
+    display: inherit;
+}
+#menu a{
+    display: block;
+    padding: 5px 50px;
+    text-decoration: none;
+    color: rgb(14, 13, 13);
+    font-family: Arial;
+}
+#menu ul li a{
+    padding: 5px 8px;
+}
+#menu ul{
+    position: absolute;
+    z-index: 1000;
+    min-width: 100%;
+    white-space: nowrap;
+    text-align: left;
+}
+
+#menu ul li:hover ul {
+    max-width: 30em;
+}
+#menu ul li {
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.8s;
+}
+
+#menu li:hover li {
+    max-height: 15em;
+    overflow: visible;
+}
+.Europe{
+    padding-left: 90px;
+    color: beige;
+}
+.Europe li{
+    background: #e1dbe7;
+    
+}
+.Europe li:hover{
+    background: #65537A;
+}
+#menu li{
+    display: inline-block;
+}
+.pa {
+    width: 600px;
+    border: 1px solid black;
+    margin-left: 10px;
+    margin-top: 100px;
+    padding: 60px;
+    box-shadow: 5px 6px #65537A;
+}
+.pa::first-letter{
+    float: left;
+    font-size: 0px;
+}
+img{
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+img
+{
+    width: 280px;
+    height: 280px;
+    border: 0px solid #000 ;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+p{
+    text-shadow: 3px 4px 5px rgb(252, 252, 250);
+    
+}
+
+#t1{
+    margin-left: 200px;
+    
+}
+body{
+    
+    background-image: url("424542f92a6fbc8359e925d2447acd06.gif");
+    background-size: cover;
+    font-family:monospace;
+}
+nav{
+    padding: 20px;
+    background-color: rgb(26, 3, 126);
+}

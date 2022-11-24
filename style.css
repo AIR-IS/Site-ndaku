@@ -1,0 +1,130 @@
+body
+{
+    background-color: cadetblue;
+}
+#wrapper{
+    border-bottom: 3px solid #7c7063;
+}
+#nav-menu{
+    margin: 0;
+    padding: 20px 70px 20px 0;
+}
+#nav-menu ul{
+    margin: 0;
+    padding: 0;
+    line-height: 30px;
+}
+#nav-menu li{
+    
+    list-style: none;
+    float: right;
+    position: relative;
+    background: midnightblue;
+}
+#nav-menu ul li a {
+    text-align: center;
+    font-family: cursive;
+    text-decoration: none;
+    height: 30px;
+    width: 150px;
+    display: block;
+    color: whitesmoke;
+    border: 1px solid goldenrod;
+    text-shadow: 1px 1px 1px #000;
+}
+#nav-menu ul ul{
+    position: absolute;
+    visibility: hidden;
+    top: 32px;
+}
+#nav-menu ul li:hover ul li a:hover {
+    background: orange;
+    color: crimson;
+}
+
+#nav-menu a:hover{
+    color: crimson;
+}
+#nav-menu ul li:hover li{
+    visibility: visible;
+}
+
+
+#nav-menu li:hover{
+    background: goldenrod;
+}
+.a
+{
+    margin: 5;
+    padding: 0;
+    line-height: 30px;
+    color: midnightblue;
+    font-family: cursive;
+    font-size: 40px;
+}
+#a
+{
+    color: crimson;
+}
+.b
+{
+    color: maroon;
+    font-family: cursive;
+}
+#b
+{
+    font-family: cursive;
+    color: rgb(247, 102, 6);
+    font-size: 25px;
+    margin-right: auto;
+    margin-left: 95px;   
+}
+#i
+{
+    font-family: cursive;
+    color: rgb(7, 7, 7);
+    font-size: 25px;
+    margin-right: auto;
+    margin-left: 95px;   
+}
+h1
+{
+    margin-top: 100px;
+}
+#c
+{
+    margin-top: 200px;
+    color: whitesmoke;
+    background-color: maroon;
+    font-family: cursive;
+    height: max-content;
+}
+.c
+{
+    font-family: 'Courier New', Courier, monospace;
+    color: cadetblue;
+    font-size: 25px;
+}
+
+.d
+{
+    font-family: cursive;
+    font-size: 25px;
+    color: maroon;
+}
+#c1
+{
+    margin-top: 55px;
+    color: whitesmoke;
+    background-color: maroon;
+    font-family: cursive;
+    height: max-content;
+}
+img {
+    width:300px;
+    height:400px;
+}
+.i {
+    width:50px;
+    height:50px;
+}
